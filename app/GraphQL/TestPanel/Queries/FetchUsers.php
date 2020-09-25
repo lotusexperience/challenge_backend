@@ -41,7 +41,13 @@ class FetchUsers extends QueryPaginated
      */
     protected function resolve($root, $args): array
     {
-        $users = User::all();
+        $builder = User::query();
+
+        /*
+         * Fetch paginate
+         */
+        $limit = isset($args['limit']) ? $args['limit'] : 15;
+        $users = $builder->paginate($limit);
 
         return $users->toArray();
     }
