@@ -1,78 +1,127 @@
-<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
+# Desafio técnico da Lotus Experience
+Olá!
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+Seja muito bem-vindo à desafio técnico da Lotus Experience.
+Preparamos esse desafio técnico para você ter a oportunidade de demonstrar o seu conhecimento e experiência, na prática.
+Queremos que essa seja uma boa experiência para você e para nós!
 
-## About Laravel
+A Lotus Experience é responsável pela tecnologia da Central do Frete.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Para esta vaga a atuação é direta nos projetos da Central do Frete, uma startup do segmento logístico que tem por missão facilitar a vida de empresas que precisam cotar e contratar fretes, para facilitar a compreensão nós somos a Trivago/Decolar dos fretes, guardadas as devidas proporções.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Trata-se de uma plataforma onde empresas podem realizar cotações com diversas transportadoras em poucos segundos e fazer todo o processo de contratação do frete de forma online.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Esse desafio consiste em uma pequena simulação de como será o sua dia a dia como desenvolvedor na Lotus Experience tomando esse contexto da Central do Frete como exemplo.
+As principais tecnologias que você terá contato nesse desafio serão: Laravel, MySQL e GraphQL.
 
-## Learning Laravel
+## Nenhum teste será deixado de lado
+Talvez você já tenha visto ou já passou por uma situação onde uma empresa pede para você fazer um teste técnico, você envia e depois eles não te dão resposta. Sim, muitos de nós já passamos por isso.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Na Lotus Experience, nós respeitamos e valorizamos o seu tempo. Todos os testes serão avaliados e todos os testes terão uma sessão de feedback, onde nós te contamos o que achamos do seu projeto. Nessa mesma sessão, nós também te contamos se você conseguiu passar para a próxima fase ou não.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## Tempo para Entrega
 
-## Laravel Sponsors
+Após receber esse desafio, você possui 1 semana para entrega-lo. Se você não puder fazer o desafio na semana que você recebeu, avisa pra gente com antecedência.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+Nós estamos aqui para conhecer mais sobre você e esse desafio é apenas um meio que encontramos de fazer isso. Então mesmo que você não esteja confiante com a versão que você fez ou não tenha conseguido concluí-la, pode mandar pra gente mesmo assim!
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[British Software Development](https://www.britishsoftware.co)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- [UserInsights](https://userinsights.com)
-- [Fragrantica](https://www.fragrantica.com)
-- [SOFTonSOFA](https://softonsofa.com/)
-- [User10](https://user10.com)
-- [Soumettre.fr](https://soumettre.fr/)
-- [CodeBrisk](https://codebrisk.com)
-- [1Forge](https://1forge.com)
-- [TECPRESSO](https://tecpresso.co.jp/)
-- [Runtime Converter](http://runtimeconverter.com/)
-- [WebL'Agence](https://weblagence.com/)
-- [Invoice Ninja](https://www.invoiceninja.com)
-- [iMi digital](https://www.imi-digital.de/)
-- [Earthlink](https://www.earthlink.ro/)
-- [Steadfast Collective](https://steadfastcollective.com/)
-- [We Are The Robots Inc.](https://watr.mx/)
-- [Understand.io](https://www.understand.io/)
-- [Abdel Elrafa](https://abdelelrafa.com)
-- [Hyper Host](https://hyper.host)
-- [Appoly](https://www.appoly.co.uk)
-- [OP.GG](https://op.gg)
+## Contexto
+Uma das etapas de desenvolvimento é a validação de protótipo para, consequentemente, conseguir validar a ideia.
+O protótipo começou a ser desenvolvido, sendo que por motivos de força maior foi parado e após um tempo você ficou encarregado de continuar o desenvolvimento dele.
 
-## Contributing
+## Como funciona
+ - Você encontrará uma descrição detalhada sobre o desafio mais abaixo;
+ - Você pode alterar o escopo do desafio, adicionando ou removendo algo se achar que vale a pena.
+ - O desafio possui diversas tarefas. Você tem liberdade para decidir quais deseja fazer ou não.
+ - Após concluir o projeto, é só mandar pra gente um link via e-mail falecom@lotusexperience.com.br
+ - Ah! Super importante: o desafio possui um tempo para entrega. Mesmo que não consiga concluir tudo nesse tempo, você pode mandar pra gente e faremos a avaliação. =)
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## Requisitos
+Para garantir que seremos capazes de executar o teste, é extremamente importante que:
 
-## Code of Conduct
+- O seu desafio esteja disponível em um repositório público no GitHub.
+- O seu código deve ser escrito totalmente em inglês.
+- Utilizar Semantic Commit Messages (https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716), para cada tarefa um commit. nada de só um commit para todo o challenge, queremos ver como você evoluiu o projeto.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+## Tarefas
 
-## Security Vulnerabilities
+### Tarefa 1:
+Insira na tabela users os campos:
+    - cpf: varchar(11)
+    - birth_dt: date
+Atualize a query fetchUsers para retornar o CPF formatado e birth_dt no formato d/m/Y.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+### Tarefa 2:
+Adicione um sistema de papéis (roles) aos usuários, podendo assumir os pápeis de: "customer", "shipping_carrier" e "admin". Cada usuário só pode ter um papel por vez.
+Atualize a query fetchUsers para retornar o papel do usuário.
 
-## License
+### Tarefa 3:
+Os usuários do tipo shipping-carrier deverão ter os seguintes dados adicionais:
+    - CNPJ;
+    - Valor de transporte por kg.
+Atualize a query fetchUsers para retornar um subarray com os novos dados quando o usuário possuir esse papel. O CNPJ deve está formatado.
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+### Tarefa 4:
+Adicione o campo que víncule uma transportadora (usuário do tipo "shipping_carrier") ao pedido ("orders"). Além disso, adicione um novo status possível ao pedido:
+    - delivered: quando for entregue.
+
+### Tarefa 5:
+Após registrado o pedido, deverá retornar uma lista com o valor cobrado pelas 5 transportadoras com menor preço. Esse valor será o seguinte cálculo para cada item: ((quantidade) * (peso)) * (valor_do_transporte_da_transportadora);
+
+### Tarefa 6:
+Os usuários "shipping_carrier" devem conseguir alterar o status dos seus pedidos, seguindo a seguinte ordem: "new" -> "on_carriage" -> "delivered". Cada alteração deve gerar um log salvando os seguintes dados (vale ressaltar desde já que uma tabela de log pode ser usado para diversos tipos de log, logo espera-se que você generalize essa tabela para permitir tal requisito):
+    - Tipo de log (nesse caso seria "order_change_status");
+    - Identificador do pedido;
+    - Valores antigos;
+    - Valores novos;
+    - Data e hora da mudança.
+
+### Tarefa 7:
+Os usuários "admin" devem conseguir listar todos os usuários "shipping carrier" que realizaram transportes em um determinado mês. Além dos dados desses usuários deve ser mostrado a quantidade de transportes realizados e o total de dinheiro dos pedidos transportados.
+
+### Tarefa 8:
+Finalize a query fetchUsers (\App\GraphQL\TestPanel\Queries\FetchUsers). Nela falta realizar a operação de like (pesquisa) a partir do parâmetro recebido de mesmo nome.
+
+### Tarefa 9:
+Crie a query fetchOrders para retornar todos os pedidos páginados, ordenados do mais recente ao mais antigo.
+
+### Tarefa 10:
+Crie a query detailOrder que receberá como parâmetro o id do pedido e deve retornar todos os seus dados, além dos dados do usuário que registrou o pedido, os dados da transportadora e a lista de itens.
+
+## Instruções
+Para ajudar no desenvolvimento e evitar perda de tempo com código _boilerplate_, decidimos prover uma estrutura básica para o desenvolvimento da sua solução utilizando a plataforma PHP (Laravel 6.* + MySQL). A estrutura deve ser utilizada no desenvolvimento da sua solução.
+
+Execute a seguinte sequências de passos para iniciar corretamente a sua aplicação:
+1. Copie o arquivo `.env.example` e salve como `.env`;
+1. Execute o comando `docker-compose up --build` a partir do diretório raiz do projeto;
+    1. A aplicação estará na porta `8010`, para verificar se está funcionando corretamente, basta acessar `http://localhost:8010/`.
+1. `docker-compose run lotus-web composer install`;
+1. `docker-compose run lotus-web php artisan key:generate`;
+1. `docker-compose run mysql-database mysql -h mysql-database -u root --password=root -e "CREATE DATABASE central_do_frete;"`;
+1. `docker-compose run lotus-web php artisan migrate`.
+
+### Testar GraphQL
+Você poderá testar suas _queries_ e _mutations_ através da página em `http://localhost:8010/graphql/test-panel`.
+
+Algumas _queries_ e _mutations_ já foram criadas para servir de exemplo para você, seus exemplos de consulta e retorno estão no arquivo `GraphQL_Examples.md`.
+Para ver como as suas respectivas operações ocorrem, basta acessar as classes mapeadas em `config/graphql.php`.
+
+## Avaliação
+A avaliação da sua solução levará em conta os seguintes critérios:
+
+* Modelagem de Dados
+* Domínio da Linguagem
+* Legibilidade do Código
+* Estrutura do Código
+* Organização do Código
+* Design Patterns
+* Manutenibilidade do Código
+* Diferenciais: Testes Unitários e Cobertura de Testes
+
+Você receberá uma resposta em até 1 semana. Iremos avaliar o seu teste e te passar um feedback, te contando se você passou para a próxima fase ou não.
+
+## Disclaimer
+Este projeto não é um produto, nunca será, não entrará em produção e não tem intenção de servir a nenhum outro propósito além de ser um aplicativo de mundo real para testar candidatos a uma posição na Lotus Experience.
+
+## Dúvidas?
+Se você tiver qualquer dúvida sobre o desafio, é só mandar um email para falecom@lotusexperience.com.br
