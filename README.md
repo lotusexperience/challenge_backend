@@ -47,37 +47,39 @@ Para garantir que seremos capazes de executar o teste, é extremamente important
 
 ### Tarefa 1:
 Insira na tabela users os campos:
-    - cpf: varchar(11)
-    - birth_dt: date
+ - cpf: varchar(11)
+ - birth_dt: date
 Atualize a query fetchUsers para retornar o CPF formatado e birth_dt no formato d/m/Y.
 
 ### Tarefa 2:
-Adicione um sistema de papéis (roles) aos usuários, podendo assumir os pápeis de: "customer", "shipping_carrier" e "admin". Cada usuário só pode ter um papel por vez.
+Adicione um sistema de papéis (roles) aos usuários, podendo assumir os pápeis de: 
+ - "SHIPPER" (Embarcador, quem contrata o frete); 
+ - "CARRIER" (Transportadora);
+ - "ADMIN".
 Atualize a query fetchUsers para retornar o papel do usuário.
 
 ### Tarefa 3:
-Os usuários do tipo shipping-carrier deverão ter os seguintes dados adicionais:
-    - CNPJ;
-    - Valor de transporte por kg.
+Os usuários do tipo CARRIER deverão ter os seguintes dados adicionais:
+ - CNPJ;
+ - Valor de transporte por kg.
 Atualize a query fetchUsers para retornar um subarray com os novos dados quando o usuário possuir esse papel. O CNPJ deve está formatado.
 
 ### Tarefa 4:
-Adicione o campo que víncule uma transportadora (usuário do tipo "shipping_carrier") ao pedido ("orders"). Além disso, adicione um novo status possível ao pedido:
-    - delivered: quando for entregue.
+Adicione o campo que víncule uma transportadora (usuário do tipo "CARRIER") ao pedido ("orders"). Além disso, adicione um novo status possível ao pedido, **DELIVERED**, quando for entregue.
 
 ### Tarefa 5:
 Após registrado o pedido, deverá retornar uma lista com o valor cobrado pelas 5 transportadoras com menor preço. Esse valor será o seguinte cálculo para cada item: ((quantidade) * (peso)) * (valor_do_transporte_da_transportadora);
 
 ### Tarefa 6:
-Os usuários "shipping_carrier" devem conseguir alterar o status dos seus pedidos, seguindo a seguinte ordem: "new" -> "on_carriage" -> "delivered". Cada alteração deve gerar um log salvando os seguintes dados (vale ressaltar desde já que uma tabela de log pode ser usado para diversos tipos de log, logo espera-se que você generalize essa tabela para permitir tal requisito):
-    - Tipo de log (nesse caso seria "order_change_status");
-    - Identificador do pedido;
-    - Valores antigos;
-    - Valores novos;
-    - Data e hora da mudança.
+Os usuários "CARRIER" devem conseguir alterar o status dos seus pedidos, seguindo a seguinte ordem: "NEW" -> "ON_CARRIAGE" -> "DELIVERED". Cada alteração deve gerar um log salvando os seguintes dados (vale ressaltar desde já que uma tabela de log pode ser usado para diversos tipos de log, logo espera-se que você generalize essa tabela para permitir tal requisito):
+ - Tipo de log (nesse caso seria "order_change_status");
+ - Identificador do pedido;
+ - Valores antigos;
+ - Valores novos;
+ - Data e hora da mudança.
 
 ### Tarefa 7:
-Os usuários "admin" devem conseguir listar todos os usuários "shipping carrier" que realizaram transportes em um determinado mês. Além dos dados desses usuários deve ser mostrado a quantidade de transportes realizados e o total de dinheiro dos pedidos transportados.
+Os usuários "ADMIN" devem conseguir listar todos os usuários "CARRIER" que realizaram transportes em um determinado mês. Além dos dados desses usuários deve ser mostrado a quantidade de transportes realizados e o total de dinheiro dos pedidos transportados.
 
 ### Tarefa 8:
 Finalize a query fetchUsers (\App\GraphQL\TestPanel\Queries\FetchUsers). Nela falta realizar a operação de like (pesquisa) a partir do parâmetro recebido de mesmo nome.
