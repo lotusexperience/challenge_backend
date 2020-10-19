@@ -32,9 +32,8 @@ O protótipo começou a ser desenvolvido, sendo que por motivos de força maior 
 ## Como funciona
  - Você encontrará uma descrição detalhada sobre o desafio mais abaixo;
  - Você pode alterar o escopo do desafio, adicionando ou removendo algo se achar que vale a pena.
- - O desafio possui diversas tarefas. Você tem liberdade para decidir quais deseja fazer ou não.
  - Após concluir o projeto, é só mandar pra gente um link via e-mail falecom@lotusexperience.com.br
- - Ah! Super importante: o desafio possui um tempo para entrega. Mesmo que não consiga concluir tudo nesse tempo, você pode mandar pra gente e faremos a avaliação. =)
+ - **Ah! Super importante**: O desafio possui diversas tarefas, você tem liberdade para decidir quais deseja fazer ou não. Você terá o prazo de uma semana para entrega, independente da quantidade de tarefas escolhidas para desenvolver.
 
 ## Requisitos
 Para garantir que seremos capazes de executar o teste, é extremamente importante que:
