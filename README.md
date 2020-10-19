@@ -48,6 +48,7 @@ Para garantir que seremos capazes de executar o teste, é extremamente important
 Insira na tabela users os campos:
  - cpf: varchar(11)
  - birth_dt: date
+
 Atualize a query fetchUsers para retornar o CPF formatado e birth_dt no formato d/m/Y.
 
 ### Tarefa 2:
@@ -55,6 +56,7 @@ Adicione um sistema de papéis (roles) aos usuários, podendo assumir os pápeis
  - "SHIPPER" (Embarcador, quem contrata o frete); 
  - "CARRIER" (Transportadora);
  - "ADMIN".
+
 Atualize a query fetchUsers para retornar o papel do usuário.
 
 ### Tarefa 3:
